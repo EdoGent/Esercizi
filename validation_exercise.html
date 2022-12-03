@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form exercise</title>
+</head>
+<body>
+    <form>
+        <label for="email">Email: <abbr title="required">*</abbr></label><br>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="password">Password: <abbr title="required">*</abbr></label><br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="name&surname">Name & Surname: <abbr title="required">*</abbr></label><br>
+        <input type="name&surname" name="name&surname" id="name&surname">
+        <br>
+        <label for="DoB">Date of Birthday: <abbr title="required">*</abbr></label><br>
+        <input type="date" name="DoB" id="DoB">
+        <br>
+        <label for="telephone_number">Telephone number: <abbr title="required">*</abbr></label><br>
+        <input type="telephone_number" name="telephone_number" id="telephone_number">
+        <br>
+        <hr>
+        <select name="choosing_plan" id="plan">
+            <option value="choosing_plan">Free plan</option>
+            <option value="choosing_plan">39.99$ plan</option>
+            <option value="choosing_plan">49.99$ plan</option>
+            <option value="choosing_plan">59.99$ plan</option>
+            <input type="checkbox">
+            <label for="checkbox">Pro Plan!</label>
+        </select>
+        <br>
+        <label for="card_number">Credit Card Number: <abbr title="required">*</abbr></label><br>
+        <input type="text" name="card_number" id="card_number" maxlength="19">
+        <br>
+        <label for="CVC">CVC: <abbr title="required">*</abbr></label><br>
+        <input type="text" name="CVC" id="CVC" maxlength="3">
+        <br>
+        <label for="expiration_date">Expiration date: <abbr title="required">*</abbr></label><br>
+        <input type="date" name="expiration_date" id="expiration_date">
+        <br>
+        <label for="billing_address">Billing address: <abbr title="required">*</abbr></label><br>
+        <input type="text" name="billing_address" id="billing_address">
+    </form>
+    
+</body>
+</html>
